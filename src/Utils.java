@@ -4,8 +4,12 @@ public class Utils {
 
         float percentualCalculado = (percentual/100);
         return valor * percentualCalculado;
-        
 
     }
 
+    public static float calcularAcrescimo (float valor, float percentual)
+    float percentualCalculado = 1 + (percentual/100);
+    return valor * percentualCalculado;
+      
 }
+
